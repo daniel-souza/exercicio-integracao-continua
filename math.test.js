@@ -14,4 +14,7 @@ describe("Operações aritiméticas", () => {
     test("Divisão entre dois números: 4 / 2 - deve retornar 2", () => {
         expect(math.divisao(4, 2)).toBe(2);
     });
+    test("A potência de um número elevado ao expoente: 2^3 - deve retornar 8", () => {
+        expect(math.potencia(2, 3)).toBe(8);
+    });
 });
